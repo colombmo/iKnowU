@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6bf829d20c8eed1999e82bc63a4bd078dd5aded5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_01799dcf3d95cff394359d646d883ad08fdbaba6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_b203f55b32c45c33011edf71b0b3b660ecc4d7a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_02c5446c750eae9c3476845e86fec205c042e7e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\libs\H725Ctrl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="56e20ba76cb588ff81f26bf1a2117646020a5176">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\H725Ctrl_6f80f816ff7b75100c4c0cff11a7f906e55116a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_d722f725615d3b88c563e64faed03cf71c2d2983.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_d6914eacf0d96a63a95b16181a8e8e4945a41fe5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_20bbdfb2ef11d20e64116e25e0d2fbfa925f8eeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f6d262d1b5b7395f1e07b47f50549d65b052e46e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_e7ef4fc259f379e1bbc131e3caeb40c53a45bd6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_0ac079477da3c97e4ed6863e7a822e8f93bc4b84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_959000524d8514a029ced4902ecf88d236b393f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_9510669c26c81513d65682a6f67faccd771dc794.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.github.ctodobom\OpenCV-3.1.0-Android\-SNAPSHOT\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="69b42d42ab7e6fb65ad46c1916f923e6d99cf367">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.github.ctodobom-OpenCV-3.1.0-Android--SNAPSHOT_54571df1264ec6c17177ef8829c2f5a537c96f4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_a40b361e8bbfa06c49dce764a07db9f2ff059170.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_c17c8feac5342920fdeee7bb75fe42032442c258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\moren\Documents\Lavoro\SmartGlasses\Emotion_reco\SampleCameraPreview\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_2199ac4f079b05966d99a42dcde6803165481e61.jar" />
+    </item>
+
+</items>

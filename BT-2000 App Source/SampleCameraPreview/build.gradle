@@ -1,0 +1,51 @@
+/*
+ * Copyright(C) Seiko Epson Corporation 2016. All rights reserved.
+ *
+ * Warranty Disclaimers.
+ * You acknowledge and agree that the use of the software is at your own risk.
+ * The software is provided "as is" and without any warranty of any kind.
+ * Epson and its licensors do not and cannot warrant the performance or results
+ * you may obtain by using the software.
+ * Epson and its licensors make no warranties, express or implied, as to non-infringement,
+ * merchantability or fitness for any particular purpose.
+ */
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    ant.condition(property:"os", value:"windows"){os(family:"windows")}
+    ant.condition(property:"os", value:"unix"){os(family:"unix")}
+
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            switch (ant.properties.os) {
+                case 'windows':
+                    options.compilerArgs.add('-Xbootclasspath/p:' + projectDir.toString().concat("\\libs\\H725Ctrl.jar;"))
+                    break
+                case 'unix':
+                    options.compilerArgs.add('-Xbootclasspath/p:' + projectDir.toString().concat("/libs/H725Ctrl.jar:"))
+                    break
+            }
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

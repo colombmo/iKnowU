@@ -1,0 +1,18 @@
+<!--
+  ~ Copyright(C) Seiko Epson Corporation 2016. All rights reserved.
+  ~
+  ~ Warranty Disclaimers.
+  ~ You acknowledge and agree that the use of the software is at your own risk.
+  ~ The software is provided "as is" and without any warranty of any kind.
+  ~ Epson and its licensors do not and cannot warrant the performance or results
+  ~ you may obtain by using the software.
+  ~ Epson and its licensors make no warranties, express or implied, as to non-infringement,
+  ~ merchantability or fitness for any particular purpose.
+  -->
+
+<resources>
+    <string name="app_name">Sample Camera Preview</string>
+    <string name="resolution_vga">640 x 480</string>
+    <string name="resolution_720p">1280 x 720</string>
+    <string name="resolution_1080p">1920 x 1080</string>
+</resources>
