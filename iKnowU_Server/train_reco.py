@@ -32,14 +32,17 @@ trainingVects, trainingLabels = [], [] 					# Initialize result vectors
 
 # Go through all folders (named each after a person), all images inside them and process those 
 for fn in listdir("training_images"):
-	for fi in listdir(path.join("training_images",fn)):
-		img = io.imread(path.join("training_images", fn, fi)) # Read image
-		dets = detector(img, 1)							# Find face in image
-
-		# Process each found face, and put the found descriptors in a list to be saved
-		for k, d in enumerate(dets):
-			trainingVects.append(facerec.compute_face_descriptor(img, sp(img, d)))
-			trainingLabels.append(fn)
+	try:
+		for fi in listdir(path.join("training_images",fn)):
+			img = io.imread(path.join("training_images", fn, fi)) # Read image
+			dets = detector(img, 1)							# Find face in image
+	
+			# Process each found face, and put the found descriptors in a list to be saved
+			for k, d in enumerate(dets):
+				trainingVects.append(facerec.compute_face_descriptor(img, sp(img, d)))
+				trainingLabels.append(fn)
+	except:
+		pass
 
 # Save training data
 np.save("trainingVects.npy", trainingVects)
