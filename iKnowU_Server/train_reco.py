@@ -34,16 +34,15 @@ trainingVects, trainingLabels = [], [] 					# Initialize result vectors
 for fn in listdir("training_images"):
 	try:
 		for fi in listdir(path.join("training_images",fn)):
-			img = io.imread(path.join("training_images", fn, fi)) # Read image
-			dets = detector(img, 1)							# Find face in image
-	
+			img = io.imread(path.join("training_images", fn, fi)) 	# Read image
+			dets = detector(img, 1)									# Find face in image
+			
 			# Process each found face, and put the found descriptors in a list to be saved
-			for k, d in enumerate(dets):
-				trainingVects.append(facerec.compute_face_descriptor(img, sp(img, d)))
+			for k in range(0,len(dets)):
+				trainingVects.append(facerec.compute_face_descriptor(img, sp(img, dets[k])))
 				trainingLabels.append(fn)
 	except:
 		pass
-
 # Save training data
 np.save("trainingVects.npy", trainingVects)
 np.save("trainingLabels.npy", trainingLabels)

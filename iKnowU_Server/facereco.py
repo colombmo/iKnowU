@@ -89,7 +89,8 @@ def recognize_people(frame):
 	detections = detector(clahe_image, 1) 		#Detect the faces in the image
 	results = []
 	
-	for face in detections:
+	for k in range(0,len(detections)):
+		face = detections[k]
 		# Compute descriptors for each face
 		face_descriptor = facerec.compute_face_descriptor(frame, predictor(frame, face))
 		
